@@ -64,7 +64,7 @@ algorithm['init_traj_distr'] = {
     'type': init_lqr,
     'init_gains': np.zeros(SENSOR_DIMS[ACTION]),
     'init_acc': np.zeros(SENSOR_DIMS[ACTION]),
-    'init_var': 0.1,
+    'init_var': 0.001,
     'stiffness': 0.01,
     'dt': agent['dt'],
     'T': agent['T'],
